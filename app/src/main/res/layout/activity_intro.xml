@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context="com.makuners.android.kickoff.IntroActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <FrameLayout
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/soccer_field"
+        android:fitsSystemWindows="true"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:keepScreenOn="true"
+            android:text="@string/insert_teams_names"
+            android:textColor="#33b5e5"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/inputTeamAName"
+            style="@style/IntroInputFields"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/team_a_name_hint"
+            android:imeOptions="actionNext"
+            android:textColorHint="@android:color/white"/>
+        <EditText
+            android:id="@+id/inputTeamBName"
+            style="@style/IntroInputFields"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/team_b_name_hint"
+            android:imeOptions="actionDone"
+            android:textColorHint="@android:color/white"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goToMainActivity"
+            android:paddingBottom="24sp"
+            android:paddingTop="24sp"
+            android:text="Kick Off!!"
+            android:textSize="20dp"/>
+    </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

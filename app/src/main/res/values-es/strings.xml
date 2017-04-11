@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kick Off!</string>
+    <string name="add_goal_button">¡Gol!</string>
+    <string name="corner_kick">+1 Saque de esquina</string>
+    <string name="corners">Saques de esquina</string>
+    <string name="foul">+1 Falta</string>
+    <string name="fouls">Faltas</string>
+    <string name="insert_teams_names">Pon los nombres de los equipos</string>
+    <string name="team_a_name_hint">Nombre del equipo A</string>
+    <string name="team_b_name_hint">Nombre del equipo B</string>
+    <string name="button_kick_off">¡Empezar!</string>
+</resources>

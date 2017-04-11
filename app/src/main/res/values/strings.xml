@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Kick Off!</string>
+    <string name="insert_teams_names">Set the names of the teams</string>
+    <string name="team_a_name_hint">Team A Name</string>
+    <string name="team_b_name_hint">Team B Name</string>
+    <string name="zero">0</string>
+    <string name="add_goal_button">Goal!</string>
+    <string name="button_kick_off">Kick Off!</string>
+    <string name="fouls">Fouls</string>
+    <string name="corners">Corners</string>
+    <string name="corner_kick">+1 Corner Kick</string>
+    <string name="foul">+1 Foul</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="team_a">Team A</string>
+    <string name="team_b">Team B</string>
+</resources>
